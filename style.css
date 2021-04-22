@@ -1,0 +1,38 @@
+/* Header Inicio */
+.header {
+  text-align: center;
+}
+.header-area {
+  padding: 20px;
+}
+
+.logo {
+  width: 150px;
+}
+
+.nav-bar ul {
+  padding-top: 50px;
+}
+
+.nav-bar a {
+  color: rgb(209, 82, 209);
+}
+
+.pesquisa form {
+  padding-top: 50px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .nav-bar ul {
+    padding-top: 1px;
+  }
+
+  .pesquisa form {
+    padding-top: 5px;
+  }
+
+  .pesquisa {
+    width: 100%;
+  }
+}
+/* Header Fim */
