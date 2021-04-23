@@ -36,3 +36,197 @@
   }
 }
 /* Header Fim */
+
+/* Lançamentos Inicio */
+
+.lancamentos-area{
+    background-color: green;
+}
+
+.carousel-item .row {height: 315px;}
+
+.video-youtube iframe {width: 100%;}
+
+
+@media screen and (min-width:0px) and (max-width:768px) {
+  .carousel-item .row {
+    height: 650px;
+    background-color: red;
+  }
+
+  .descricao-filme{
+    padding: 20px;
+  }
+}
+
+/* Lançamentos Fim */
+
+/* Destaques Inicio */
+
+.destaques{
+  margin-bottom: 20px;
+}
+
+.destaques-area{
+  padding-top: 20px;
+}
+
+.destaques-area div{
+  align-items: center;
+}
+
+.destaques-area .destaque-titulo h1{
+  margin-left: 50px;
+}
+
+.destaques-area img{
+  width: 100%;
+}
+
+.images-area{
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.images-area div{
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width:576px) and (max-width:768px) {
+  .images-area > div:nth-child(3){
+    display: none;
+  }
+
+  .images-area > div:nth-child(4){
+    display: none;
+  }
+}
+
+@media screen and (min-width:0px) and (max-width:576px) {
+  .images-area > div{
+    display: none;
+  }
+
+  .images-area > div:nth-child(1){
+    display:block;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+  .images-area > div:nth-child(3){
+    display: none;
+  }
+
+  .images-area > div:nth-child(4){
+    display: none;
+  }
+}
+
+/* Destaques Inicio */
+
+/* Últimas avaliações inicio */
+
+.avaliacoes-area{
+  margin-top: 20px;
+}
+
+.card{
+  margin-bottom: 20px;
+}
+
+.card-header{
+  width: 100%;
+}
+
+.card-header img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.card-footer{
+  width: 100%;
+}
+
+.card-footer div{
+  margin-left: 20px;
+}
+
+@media screen and (min-width:0px) and (max-width:576px) {
+  .avaliacoes-area > div{
+    display: none;
+  }
+
+  .avaliacoes-area > div:nth-child(1){
+    display: block;
+  }
+
+  .carousel-item .row {
+    height: 650px;
+    background-color: red;
+  }
+
+  .descricao-filme{
+    padding: 20px;
+  }
+}
+
+/* Últimas avaliações fim */
+
+/* Entrevistas e Making of Inicio */
+.entrevistas{
+  margin-bottom: 20px;
+}
+
+.card iframe{
+  width: 100%;
+
+  margin-top: 10px;
+}
+
+.entrevistas-area{
+  margin-bottom: 20px;
+}
+
+.entrevistas-area div{
+  margin: 5px 5px;
+}
+
+@media screen and (min-width:0px) and (max-width:576px) {
+  .entrevistas-area > div{
+    display: none;
+  }
+
+  .entrevistas-area > div:nth-child(1){
+    display: block;
+  }
+
+  .carousel-item .row {
+    height: 650px;
+    background-color: red;
+  }
+
+  .descricao-filme{
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width:576px) and (max-width:768px) {
+  .entrevistas-area > div:nth-child(3){
+    display: none;
+  }
+
+  .avaliacoes-area > div:nth-child(3){
+    display: none;
+  }
+
+  .images-area > div:nth-child(3){
+    display: none;
+  }
+
+  .images-area > div:nth-child(4){
+    display: none;
+  }
+}
+/* Entrevistas e Making of Fim */
+
