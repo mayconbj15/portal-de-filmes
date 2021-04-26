@@ -28,6 +28,7 @@
 
 .logo {
   width: 150px;
+  filter: grayscale(100%);
 }
 
 .nav-bar ul {
@@ -67,6 +68,13 @@
 
 .video-youtube iframe {width: 100%;}
 
+.carousel-control-prev{
+  justify-content: flex-start;
+}
+
+.carousel-control-next{
+  justify-content:flex-end;
+}
 
 @media screen and (min-width:0px) and (max-width:768px) {
   .carousel-item .row {
@@ -75,6 +83,16 @@
 
   .descricao-filme{
     padding: 20px;
+  }
+}
+
+@media screen and (min-width:0px) and (max-width:1200px) {
+  .elenco {
+    visibility: hidden;
+  }
+
+  .avaliacao{
+    visibility: hidden;
   }
 }
 
@@ -408,4 +426,20 @@ h1{
 }
 
 /* Novidades Fim */
+
+/* Rodapé Inicio */
+
+.footer-area{
+  color: white;
+}
+
+.footer-area img{
+  width: 100px;
+}
+
+.footer-area p{
+  margin-top: 40px;
+}
+
+/* Rodapé Fim */
 
